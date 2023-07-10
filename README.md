@@ -29,3 +29,6 @@ You may need [`rust`](http://rust-lang.org) installed as well, in case [tiktoken
 ```bash
 pip install setuptools-rust
 ```
+
+If you come across error like `NameError: name 'chain' is not defined` while re-running the code,
+delete the persist directory and re-run the project.
